@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+.light {
+  background: #f0f0f0;
+  color: #000;
+}
+.dark {
+  background: #1e1e1e;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+}
+#controls {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#taskInput {
+  width: 70%;
+  padding: 10px;
+}
+#addTaskBtn, #themeToggle {
+  padding: 10px;
+  margin-left: 5px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  background: rgba(255, 255, 255, 0.9);
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dark li {
+  background: rgba(50, 50, 50, 0.9);
+}
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+.btn {
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+.editBtn {
+  background-color: #ffc107;
+}
+.deleteBtn {
+  background-color: #dc3545;
+  color: white;
+}
